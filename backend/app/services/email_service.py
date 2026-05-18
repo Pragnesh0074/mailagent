@@ -4,8 +4,11 @@ from email.mime.text import MIMEText
 from email.utils import parseaddr
 from typing import List
 
+# pyrefly: ignore [missing-import]
 from google.auth.transport.requests import Request
+# pyrefly: ignore [missing-import]
 from google.oauth2.credentials import Credentials
+# pyrefly: ignore [missing-import]
 from googleapiclient.discovery import build
 
 # If modifying these SCOPES, delete the file token.json.
